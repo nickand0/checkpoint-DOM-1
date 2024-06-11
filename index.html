@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'achat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="panier.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <div class="article1">
+        <div class="titre-panier">
+            <h1>Votre Panier</h1>
+            <img class="panier" src="https://img.freepik.com/vecteurs-premium/panier-achat-realiste-supermarche-vide-isole-blanc_53562-6809.jpg" alt="panier">
+   
+        </div>
+        <div class="cart">
+            <div class="contenue">
+                <img class="achat" src="https://jtail.twic.pics/jt/p/XEW52LOO/FTRDSVYK_1300250.jpg?twic=v1/resize=700" alt="celeste">
+                
+                <div>
+                    <h3>Bouteille d'eau celèste</h3>
+                    <i id="heart" class="fa-solid fa-heart fa-lg" style="color: #d6d6d6;"></i>
+                    <div class="quantity-controls">
+                        <button class="minus-btn1">-</button>
+                        <span class="quantity1">1</span>
+                        <button class="plus-btn1">+</button>
+                    </div>
+                
+                    <p class="item-total1">Prix: 
+                        <span class="total1">100</span> CFA
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div>
+                <i class="remove-btn1 fa-solid fa-trash-can fa-xl" style="color: #ff2600;"></i>
+            </div>
+        </div>  
+    </div>
+    <div class="article2">
+        <div class="cart">
+            <div class="contenue">
+                <img class="achat" src="https://images.coinafrique.com/1010076_uploaded_image1_1569933727.28.png" alt="savon">
+                <div>
+                    <h3>Savon  original 100g</h3>
+                    <i id="heart2" class="fa-solid fa-heart fa-lg" style="color: #d6d6d6;"></i>
+                    <div class="quantity-controls">
+                        <button class="minus-btn2">-</button>
+                        <span class="quantity2">1</span>
+                        <button class="plus-btn2">+</button>
+                    </div>
+                    
+                    <p class="item-total2">Prix:
+                        <span class="total2">800</span> €
+                    </p>
+                </div>
+            </div>
+            <div>
+                <i class="remove-btn2 fa-solid fa-trash-can fa-xl" style="color: #ff2600;"></i>
+            </div>
+
+        </div>
+    </div>
+    <h2>Total: <span id="total-price">900 </span>CFA</h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
